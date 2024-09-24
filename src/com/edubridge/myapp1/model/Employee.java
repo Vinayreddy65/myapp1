@@ -6,26 +6,30 @@ public class Employee {
 	private String employeeName;
 	public double employeeSalary; 
 	public String employeeEmail;
-	public long employeePhoneNumber;
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getEmployeeName() {
+		return employeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+	public double getEmployeeSalary() {
+		return employeeSalary;
+	}
+	public void setEmployeeSalary(double employeeSalary) {
+		this.employeeSalary = employeeSalary;
+	}
+	public String getEmployeeEmail() {
+		return employeeEmail;
+	}
+	public void setEmployeeEmail(String employeeEmail) {
+		this.employeeEmail = employeeEmail;
+	}
 	
-	{
-		return employee_Id;
-	}
-	public void setEmployee_Id(int employee_Id) {
-		this.employee_Id = employee_Id;
-	}
-	public String getEmployee_Name() {
-		return employee_Name;
-	}
-	public void setEmployee_Name(String employee_Name) {
-		this.employee_Name = employee_Name;
-	}
-	public double getEmployee_Salary() {
-		return employee_Salary;
-	}
-	public void setEmployee_Salary(double employee_Salary) {
-		this.employee_Salary = employee_Salary;
-	}
-	private double employee_Salary;
 }
 	
