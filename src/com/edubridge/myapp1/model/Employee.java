@@ -2,10 +2,11 @@ package com.edubridge.myapp1.model;
 
 public class Employee {
 	
-	private int employee_Id;
-	private String employee_Name;
-	public double employee_Salary; 
-	public String employee_email;
+	private int employeeId;
+	private String employeeName;
+	public double employeeSalary; 
+	public String employeeEmail;
+	public long employeePhoneNumber;
 	
 	{
 		return employee_Id;
