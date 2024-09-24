@@ -4,7 +4,10 @@ public class Employee {
 	
 	private int employee_Id;
 	private String employee_Name;
-	public int getEmployee_Id() {
+	public int getEmployee_Id() 
+	public String employee_email;
+	
+	{
 		return employee_Id;
 	}
 	public void setEmployee_Id(int employee_Id) {
